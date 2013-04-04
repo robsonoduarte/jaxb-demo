@@ -48,6 +48,7 @@
                 <configuration>
                     <packageName>br.com.mystudies.jaxb</packageName>
                     <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
+                    <clearOutputDir>false</clearOutputDir>
                 </configuration>
             </plugin>
         </plugins>
