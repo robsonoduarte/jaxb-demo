@@ -12,22 +12,13 @@ public class App {
 	public static void main(String[] args) throws Exception {
 
 		TConsNFeDest tConsNFeDest = new TConsNFeDest();
-		tConsNFeDest.setCNPJ("000");
-		tConsNFeDest.setIndEmi("temp");
-		tConsNFeDest.setIndNFe("temp");
-		tConsNFeDest.setTpAmb("temp");
-		tConsNFeDest.setVersao("1.0.1");
-
-
-/*		JAXBContext jaxbContext = JAXBContext.newInstance(TConsNFeDest.class);
-		Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-
-		jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-		jaxbMarshaller.marshal(jaxbContext, System.out);*/
-
-
-
-
+		tConsNFeDest.setXServ("CONSULTAR NFE DEST");
+		tConsNFeDest.setTpAmb("2");
+		tConsNFeDest.setCNPJ("24456548000109");
+		tConsNFeDest.setIndNFe("0");
+		tConsNFeDest.setIndEmi("0");
+		tConsNFeDest.setUltNSU("0");
+		tConsNFeDest.setVersao("1.01");
 
 
 			JAXBContext jaxbContext = JAXBContext.newInstance(TConsNFeDest.class);
